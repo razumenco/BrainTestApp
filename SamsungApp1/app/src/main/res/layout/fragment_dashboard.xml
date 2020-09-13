@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/help_countries"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:paddingStart="30dp"
+        android:text="@string/help_countries"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:paddingStart="30dp"
+        android:text="@string/app_name"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/forRes"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/countryAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:background="@color/colorPrimary"
+        android:hint="@string/hint"
+        android:inputType="textCapSentences"
+        android:paddingStart="30dp"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/forGoodRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingStart="30dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="229dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="70dp"
+        android:background="@color/colorAccent"
+        android:text="@string/check"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/next"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="229dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="70dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/next"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+</LinearLayout>

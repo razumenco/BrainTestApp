@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BrainTest</string>
+    <string name="title_home">Arithmetic</string>
+    <string name="title_dashboard">Geography</string>
+    <string name="title_notifications">Profile</string>
+    <string name="wrong_answer">❌❌❌Try again❌❌❌</string>
+    <string name="correct_answer">Good✔</string>
+    <string name="hint">Your Answer</string>
+    <string name="check">CHECK</string>
+    <string name="help">
+                        Calculate the value of the following expression.
+                        Division is INTEGER.
+                        For example: 15 / 4 = 3</string>
+    <string name="todo">TO DO</string>
+    <string name="next">NEXT</string>
+    <string name="help_countries">Write the capital of the following country(in russian).</string>
+    <string name="empty" />
+    <string name="name_hint">Write your nickname.</string>
+    <string name="done">DONE</string>
+    <string name="help_profile">For better experience write your username.</string>
+    <string name="not_fragment">fragment</string>
+    <string name="bad_answer">Length need to be more than 5 characters!</string>
+    <string name="new_log">Your account was created. Re-entry to see your stats.</string>
+    <string name="congrats">Congratulations!!! You won the game.</string>
+    <string name="please_wait">Please wait until the animation will stop</string>
+</resources>
